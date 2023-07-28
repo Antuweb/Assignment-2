@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding:0px 40px;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+font-family: 'Tektur', cursive;
+}
+
+.navigation{
+    display: flex;
+    justify-content:center;
+     margin:12px 0px;
+
+}
+.pharma>ul{
+    display: flex;
+    gap:15px;
+}
+.pharma>ul>li{
+    list-style: none;
+}
+.pharma>ul>li>a{
+    text-decoration: none;
+    color:#19CE67;
+    font-size: 12px;
+}
+.pharma>ul>li>a>span{
+    color:black
+}
+.kamrul-pharma>h4{
+    color:#19CE67;
+    padding-right: 200px;
+    
+}
+
+/* <! Bannar Section Style Here > */
+.image >img{
+    width:400px;
+    padding-right: 100px;
+}
+.bannar-area{
+    display: flex;
+    padding: 40px 40px;
+    align-items: center;
+    background-image:url(./photos/banner-bg.jpg) ;
+}
+.text>h1{
+    color:#19CE67;
+    margin-bottom: 6px;
+    font-size: 30px;
+}
+.text>p{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.text{
+    padding-left: 150px;
+}
+.get{
+    text-decoration: none;
+    background-color:#19CE67;
+    margin-right: 12px;
+    color: white;
+    padding:6px 24px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.blogs{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 6px 26px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* <!-- Products Area style Here --> */
+
+.product-section{
+    text-align: center;
+}
+.product-section>h4{
+    color:#19CE67;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.product-section>p{
+    font-size: 12px;
+    margin-bottom: 20px;
+    
+}
+.product-father{
+   
+    /* width: 800px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 18px;
+    justify-items: center;
+    align-items: center;
+    margin: 15px 150px;
+
+}
+.product-child>img{
+    width: 200px;
+}
+   .fa-solid{
+    font-size: 12px;
+    margin: 5px -2px;
+    color: rgb(244, 186, 78);
+   }
+.product-child{
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 15px;
+    padding:5px;
+}
+.product-child>h4{
+    color: #19CE67;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+.product-child>p{
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.product-child>h6{
+    font-size: 17px;
+
+}
+.product-child>h5{
+    color: white;
+    background-color: #19CE67;
+    padding: 7px 20px;
+}
+.product-child>h5{
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+.bros{
+    color: white;
+    background-color: #19CE67;
+    text-decoration: none;
+    padding: 4px 18px;
+    border-radius: 5px;
+}
+
+
+/* <Team Section Style here  --> */
+
+.medical-item >h5{
+    background-color:#19CE67;
+    color: white;
+    text-align: center;
+   padding-bottom: 10px 40px;
+  
+}
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    
+}
+.medical-item{
+    border: 1px solid lightgray;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.parent{
+    gap: 15px;
+  margin: 10px 60px;
+  
+}
+.browse{
+    background-color: #19CE67;
+    color: white;
+    text-decoration: none;
+    padding:5px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+  
+}
+.browse{
+    margin-left: 595px;
+}
+
+/* <!-- Team Section Style here  --> */
+.team> h1{
+    color:#19CE67;
+}
+.team>p{
+    font-size: 12px;
+    margin: 0px 400px;
+}
+.team{
+    text-align: center;
+    padding-top: 20px;
+}
+.single>img{
+    width:220px;
+    
+
+}
+.single>h4{
+    color:#19CE67;
+    text-align: center;
+}
+.single>h6{
+    font-size: 10px;
+    text-align: center;
+    padding:10px;
+}
+.team-section{
+    display: flex;
+    
+    margin: 15px 150px;
+    gap: 20px;
+}
+.single{
+ border: none;
+box-shadow: 0px 0px 10px lightgray;
+border-radius: 15px;
+padding: 5px;
+}
+
+/* News And Blogs Area Style Here */
+.kemon>h1{
+    font-size: 30px;
+    color:#19CE67;
+}
+.kemon>p{
+    font-size: 12px;
+}
+.kemon{
+    text-align: center;
+    margin: 10px 220px;
+}
+.child1>img{
+width: 220px;
+border-radius:10px ;
+}
+.fa-calendar-days{
+    color: #19CE67;
+    font-size: 15px;
+    margin-right: 100px;
+
+    
+}
+.fa-calendar-days>span{
+    color: black;
+    font-size: 10px;
+   
+}
+.child1>h4{
+    color:#19CE67;
+    padding: 5px;
+}
+.child1>h6{
+    font-size: 8px;
+    padding: 8px 20px;
+}
+.child1>a{
+    color: #19CE67;
+    font-size: 14px;
+    margin-right: 100px;
+    
+
+}
+.news-card{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    
+    margin: 15px 150px;
+}
+.child1{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px lightgray;
+}
+/* <!-- footer area style here --> */
+.two-card{
+    background-color:black;
+}
+.child-footer>h2{
+color: white;
+font-size: 15px;
+padding: 14px;
+margin: 0px 80px;
+}
+.child-footer>p{
+    color: white;
+    font-size: 10px;
+   padding:0px 92px;
+
+}
+.child-footer >h6{
+    color: white;
+    font-size: 8px;
+    padding: 5px;
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 50px 80px;
+}
+.two-card>hr{
+border: 1px solid #19CE67;
+}
+
+ .two-card>p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
+
