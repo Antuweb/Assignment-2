@@ -11,7 +11,7 @@ body{
     font-family: 'Rubik', sans-serif;
 font-family: 'Tektur', cursive;
 }
-
+/* Navigation Style Here */
 .navigation{
     display: flex;
     justify-content:center;
@@ -162,40 +162,13 @@ font-family: 'Tektur', cursive;
     color: white;
     text-align: center;
    padding-bottom: 10px 40px;
-  
-}
-.parent{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    
-    
 }
 .medical-item{
     border: 1px solid lightgray;
     align-items: center;
     background-color: white;
     border-radius: 15px;
-    
 }
-.parent{
-    gap: 15px;
-  margin: 10px 60px;
-  
-}
-.browse{
-    background-color: #19CE67;
-    color: white;
-    text-decoration: none;
-    padding:5px 10px;
-    border-radius: 4px;
-    font-size: 10px;
-  
-}
-.browse{
-    margin-left: 595px;
-}
-
-/* <!-- Team Section Style here  --> */
 .team> h1{
     color:#19CE67;
 }
@@ -209,8 +182,6 @@ font-family: 'Tektur', cursive;
 }
 .single>img{
     width:220px;
-    
-
 }
 .single>h4{
     color:#19CE67;
@@ -223,7 +194,6 @@ font-family: 'Tektur', cursive;
 }
 .team-section{
     display: flex;
-    
     margin: 15px 150px;
     gap: 20px;
 }
@@ -254,7 +224,6 @@ border-radius:10px ;
     color: #19CE67;
     font-size: 15px;
     margin-right: 100px;
-
     
 }
 .fa-calendar-days>span{
@@ -311,8 +280,6 @@ margin: 0px 80px;
     padding: 5px;
 }
 
-
-
 .footer{
     display: flex;
     align-items: center;
@@ -327,4 +294,94 @@ border: 1px solid #19CE67;
     text-align: center;
     padding: 10px;
  }
+
+/* R W d Responsive Web design */
+/* On mobile Screen */
+
+@media only screen and (max-width:400px) {
+    /* navbar responsive style */
+    .navigation{
+        display: block;
+        text-align: center;
+}
+.kamrul-pharma>h4{
+    padding-right: 0px;
+}
+.pharma>ul>li>a{
+    border: 1px solid lightgray;
+    padding:8px 20px;
+    display: block;
+    margin: 10px;
+    border-radius: 200px;
+}
+.pharma>ul{
+    display: block;
+}
+/* Bannar Responsive style */
+.bannar-area{
+    display:block;
+    padding:0px 0px;
+}
+.text{
+    padding-left: 0px;
+    margin: 0px 50px;
+}
+.image >img{
+    width:100%;
+    padding-right:0px;
+    margin-top: 15px;
+}
+/* Product Responsive Style */
+.product-section{
+    text-align: center;
+    margin: 0px 10px;
+}
+.product-father{
+    width: 100%;
+    display:block;
+    margin: 0px 0px;
+    padding: 10px;
+}
+/* Team Responsive style */
+
+.team>p{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.team-section{
+    display:block;
+    margin: 15px 0px;
+    gap: 20px;
+}
+/* News And Blogs Responsive style */
+.kemon{
+    text-align: center;
+    margin: 10px 0px;
+}
+.news-card{
+    display:block;
+    width: 100%;
+    margin: 25px 0px;
+}
+/* Footer responsive Style */
+
+.footer{
+    display:block;
+}
+.child-footer>h2{
+    padding: 14px;
+    margin: 0px 0px;
+    text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
