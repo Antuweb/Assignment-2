@@ -1,14 +1,14 @@
-# Project Name
+# KAMRUL PHARMACY
 
-## Description
+## A ONLINE MARKET PLACE
 
-Briefly introduce your project here. Explain what it does, its main features, and its purpose.
+
 
 # Features
-- Feature 1: Description of feature 1.
-- Feature 2: Description of feature 2.
-- Feature 3: Description of feature 3.
-
+ 1: OUR LATEST PRODUCTS
+ 2: OUR GOOD TEAM MEMBER
+ 3: NEWS AND DAILY BLOGS
+ 4: ABOUT OUR COMPANY
 ## Live Link
 
-A live version of the project is available at: [https://www.example.com](https://www.example.com)
+A live Link available at: [ https://antuweb.github.io/Assignment-2/](  https://antuweb.github.io/Assignment-2/)
